@@ -8,3 +8,10 @@ Loom is built for hackability! Hack Club members can fork the codebase and pick 
 •	Feature/Safe-Parser: Migrating the math module evaluation from a localized wrapper approach to a fully sandboxed token parser (abstract syntax trees) to rule out illegal code strings entirely.
 •	Feature/Dynamic-Zoom: Implementing mouse scrolling scroll listeners (<Button-4> / <Button-5>) to modify canvas scale constants and re-trigger plots dynamically.
 •	UI/Button-Pad: Adding an automated layout grid on the left interface sidebar for direct button input entry fields.
+
+To get a local development instance running on your machine, clone the repository via terminal and invoke the main execution controller:
+
+
+git clone [https://github.com/Harsi-dot/Loom.git](https://github.com/Harsi-dot/Loom.git)
+cd Loom
+python3 main.py
